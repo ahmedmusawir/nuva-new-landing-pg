@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
 *,
 *:after,
 *::before {
@@ -9,7 +10,7 @@
 body {
   background: #b9064d;
   color: #fff;
-  font-family: 'Lato', Arial, sans-serif; }
+  font-family: 'Quicksand', sans-serif; }
 
 .main-container {
   overflow: hidden;
@@ -602,6 +603,14 @@ svg#bigTriangleColor {
       font-size: 3rem; } }
 #BLOCK-7 figure img {
   box-shadow: 5px 5px 26px black; }
+#BLOCK-7 .social-proof {
+  margin-bottom: 3rem; }
+  #BLOCK-7 .social-proof img {
+    margin-bottom: 2rem; }
+#BLOCK-7 .certification {
+  margin-top: 3rem; }
+  #BLOCK-7 .certification .headline {
+    padding-top: 5rem; }
 
 /**
  *
@@ -619,6 +628,27 @@ svg#bigTriangleColor {
   width: 100%;
   background: #b9064d;
   color: white; }
+
+/**
+ *
+ * FOOTER
+ *
+ */
+#FOOTER .footer-right-content ul {
+  list-style: none;
+  margin-top: 3rem; }
+  #FOOTER .footer-right-content ul li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: left; }
+    @media (max-width: 500px) {
+      #FOOTER .footer-right-content ul li {
+        font-size: 1.8rem; }
+        #FOOTER .footer-right-content ul li i {
+          font-size: 2.5rem; } }
+#FOOTER .footer-left-content .subheading small {
+  color: #fca8ca; }
 
 /*=====  End of DA MOOSE IS LOOSE  ======*/
 

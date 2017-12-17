@@ -7,6 +7,9 @@ $rico-third: #eecdaf; //light white red
 // $rico-secondary: lighten( #a470ae, 20% );
 // $rico-secondary: darken( #a470ae, 0% );
 // $rico-secondary: darken( $rico-primary, 20% );
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 *,
 *:after,
 *::before {
@@ -21,7 +24,8 @@ body {
 	background: $rico-primary;
 	// background: $rico-primary;
 	color: #fff;
-	font-family: 'Lato', Arial, sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	// font-family: 'Lato', Arial, sans-serif;
 }
 
 .main-container {
@@ -767,6 +771,21 @@ svg#bigTriangleColor {
 			box-shadow: 5px 5px 26px black;
 		}
 	}
+
+	.social-proof {
+		margin-bottom: 3rem;
+		img {
+			margin-bottom: 2rem;
+		}
+		// border: 1rem solid red;
+	}
+	.certification {
+		margin-top: 3rem;
+		.headline {
+			padding-top: 5rem;
+		}
+		// border: 1rem solid yellow;
+	}
 }
 
 /**
@@ -791,6 +810,42 @@ svg#bigTriangleColor {
 		width: 100%;
 		background: $rico-primary;
 		color: white;
+	}
+}
+
+/**
+ *
+ * FOOTER
+ *
+ */
+#FOOTER {
+	.footer-right-content {
+		ul {
+			list-style: none;
+			margin-top: 3rem;
+
+			li {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				font-size: 2.5rem;
+				text-align: left;
+
+				@media (max-width: 500px) {
+					font-size: 1.8rem;
+					i {
+						font-size: 2.5rem;
+					}
+				}
+			}
+		}
+
+	}
+	.footer-left-content {
+		.subheading {
+			small {
+				color: $rico-secondary;
+			}
+		}
 	}
 }
 /*=====  End of DA MOOSE IS LOOSE  ======*/
