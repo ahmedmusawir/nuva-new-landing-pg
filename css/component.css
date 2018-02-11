@@ -545,13 +545,11 @@ svg#bigTriangleColor {
  */
 @media (max-width: 1200px) {
   #BLOCK-5 .column {
-    width: 100%; } }
-@media (max-width: 1200px) {
-  #BLOCK-5 .column {
+    width: 100%;
     min-height: 50px; } }
 #BLOCK-5 .headline {
   padding-top: 2rem;
-  color: #b9064d;
+  color: #fb90ba;
   min-height: 120px; }
   @media (max-width: 1350px) {
     #BLOCK-5 .headline {
@@ -571,13 +569,23 @@ svg#bigTriangleColor {
 #BLOCK-5 p {
   color: white;
   font-size: 1.5rem;
-  min-height: 270px; }
-  @media (max-width: 1670px) {
+  min-height: 270px;
+  border: 1px solid red; }
+  @media (max-width: 1199px) {
     #BLOCK-5 p {
-      min-height: 450px; } }
-  @media (max-width: 1200px) {
+      min-height: auto; } }
+  @media (min-width: 1200px) {
     #BLOCK-5 p {
-      min-height: 50px; } }
+      min-height: 310px; } }
+  @media (min-width: 1400px) {
+    #BLOCK-5 p {
+      min-height: 260px; } }
+  @media (min-width: 1600px) {
+    #BLOCK-5 p {
+      min-height: 220px; } }
+  @media (min-width: 1800px) {
+    #BLOCK-5 p {
+      min-height: 200px; } }
 #BLOCK-5 .old-price {
   text-decoration: line-through; }
 #BLOCK-5 .btn {
@@ -649,49 +657,14 @@ svg#bigTriangleColor {
  * STORE 2
  *
  */
-@media (max-width: 1200px) {
-  #BLOCK-8 .column {
-    width: 100%; } }
-@media (max-width: 1200px) {
-  #BLOCK-8 .column {
-    min-height: 50px; } }
-#BLOCK-8 .headline {
-  padding-top: 2rem;
-  color: #b9064d;
-  min-height: 120px; }
-  @media (max-width: 1350px) {
-    #BLOCK-8 .headline {
-      font-size: 3rem; } }
-  @media (max-width: 1200px) {
-    #BLOCK-8 .headline {
-      min-height: 50px;
-      font-size: 4rem; } }
-#BLOCK-8 h4 {
-  color: white;
-  font-variant: small-caps;
-  font-weight: 700;
-  min-height: 100px; }
-  @media (max-width: 1200px) {
-    #BLOCK-8 h4 {
-      min-height: 50px; } }
-#BLOCK-8 p {
-  color: #b9064d;
-  font-size: 1.5rem;
-  min-height: 270px; }
-  @media (max-width: 1670px) {
-    #BLOCK-8 p {
-      min-height: 450px; } }
-  @media (max-width: 1200px) {
-    #BLOCK-8 p {
-      min-height: 50px; } }
-#BLOCK-8 .old-price {
-  text-decoration: line-through; }
 #BLOCK-8 .btn {
-  margin-bottom: 4rem;
-  margin-top: 2rem;
   width: 100%;
   background: #b9064d;
-  color: white; }
+  color: white;
+  font-size: 3rem; }
+  @media (max-width: 500px) {
+    #BLOCK-8 .btn {
+      font-size: 2rem; } }
 
 /**
  *
